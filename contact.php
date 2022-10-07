@@ -41,24 +41,4 @@
 	</div>
 	<!-- //gallery -->
 	<!-- footer -->
-	<div class="footer">
-		<!-- container -->
-		<div class="container">
-			<div class="footer-info">
-				<h3>Contact</h3>
-				<p class="f-address">09-45 Mary Road , London , J-9 09SD</p>
-				<ul>
-					<li><a href="#" class="facebook"> </a>
-					<li><a href="#" class="facebook twitter"> </a>
-					<li><a href="#" class="facebook chrome"> </a>
-					<li><a href="#" class="facebook dribbble"> </a>
-					<li><a href="#" class="facebook pinterest"> </a>
-				</ul>
-				<p class="copyright"> © 2015 Mining. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-			</div>	
-		</div>
-		<!-- //container -->
-	</div>
-	<!-- //footer -->
-</body>	
-</html>
+	<?php include "footer.php";?>
