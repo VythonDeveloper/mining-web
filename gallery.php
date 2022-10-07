@@ -90,7 +90,7 @@
 					<div class="clearfix"> </div>
 				</div>
 				<div class="gallery-grids">
-					<?php for($i = 41; $i < 43; $i++){ ?>
+					<?php for($i = 41; $i < 44; $i++){ ?>
 						<div class="col-md-3 gallery-grid">
 							<a class="example-image-link" href="http://localhost/mining-web/images/gallery/gal%20(<?php echo $i;?>).jpg" data-lightbox="example-set" data-title=""><img height="200px" width="200px" class="example-image" src="http://localhost/mining-web/images/gallery/gal%20(<?php echo $i;?>).jpg" alt=""/></a>
 						</div>
