@@ -39,6 +39,8 @@ elseif($curr_path == 'contact' || $curr_path == 'contact.php'){
 <title>Equipcare – Committed to machine's care</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png">
 <meta name="keywords" content="Mining Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -57,6 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner">
 		<div class="banner-content">
 			<div class="logo">
+				<img src="./images/logo.png" height="150px"><br>
 				<a href="index.php">Knowteq Equipcare LLP</a>
 			</div>
 			<div class="top-nav">
