@@ -10,7 +10,7 @@
 			<div class="mail-grids">
 				<div class="col-md-6 mail-grid-left wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 		
-					<h5>We are hiring, To apply connect with below-mentioned mail id</span></h5>
+					<h4 style="color: black;">We are hiring, To apply connect with below-mentioned mail id</span></h4>
 					<h4>Mail your Resume</h4>
 					E-mail: <a href="mailto:hr.exerecruitment@equipcare.in">hr.exerecruitment@equipcare.in</a>
 				</div>
