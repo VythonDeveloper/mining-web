@@ -7,7 +7,7 @@
 			</div>
 		<div class="welcome offer about">
 			<div class="welcome-left offer-left about-left">
-				<h3>A brief history of about us</h3>
+				<h3 style="font-size: 45px;">A brief history of about us</h3>
 				<p style="color: black;">With our state of art Facility/Workshop located at Durgapur we offer a range of product and services catering majorly to the mining and construction equipments sector. Located in Eastern part of India, Knowteq Equipcare LLP was incorporated in April, 2018. Equipcare offers a range of Maintenance Services to increase productivity and reduce cost at our client’s operations. Our thorough evaluation and one stop solution, provides our clients with the tools for success in the equipment maintenance. Our goal is to continue to strengthen our cost management in line with the Company’s vision and mission, implement digital transformation in all possible business processes, create “fan customers” and become an efficient company that develops sustainably for our employees, business partners, customers and shareholders.
 				</p>
 			</div>
