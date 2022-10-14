@@ -4,7 +4,7 @@
 		<div class="welcome-left">
 			<h3>Hello and welcome!</h3>
 			<!-- <h4>Meet the largest independent mining company</h4> -->
-			<p>We are a leading Construction & Mining Equipment Maintenance Service provider having expertise in complete equipment overhaul and component repairs. We provide repair and maintenance services for Hydraulic Excavators, Surface Miner, Dozers, Motor Graders, Wheel Loaders, & Tipper/Dump Trucks.
+			<p style="color: black;">We are a leading Construction & Mining Equipment Maintenance Service provider having expertise in complete equipment overhaul and component repairs. We provide repair and maintenance services for Hydraulic Excavators, Surface Miner, Dozers, Motor Graders, Wheel Loaders, & Tipper/Dump Trucks.
 We develop & supply custom-built products such as “Workshop On Wheels, Mobile Service Van, Tyre Repair & Maintenance Unit and Lubrication Unit“ to assist in various maintenance activities.
 			</p>
 		</div>

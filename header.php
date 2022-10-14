@@ -3,6 +3,8 @@ Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
+
+Editted by Munmun Gorai
 -->
 
 <?php
@@ -59,15 +61,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner">
 		<div class="banner-content">
 			<div class="logo">
-				<img src="./images/logo.png" height="150px"><br>
-				<a href="index.php">Knowteq Equipcare LLP</a>
+				<img src="./images/logo.png" height="200px"><br>
+				<a href="index.php"></a>
 			</div>
 			<div class="top-nav">
 				<span class="menu">MENU</span>
 				<ul class="nav1 cl-effect-15">
 					<li><a href="index.php" <?php echo $home_active == '' ? "data-hover='Home'" : '';?> class="<?php echo $home_active;?>">Home</a></li>
 					<li><a href="about.php" <?php echo $aboutus_active == '' ? "data-hover='About'" : '';?> class="<?php echo $aboutus_active;?>">About</a></li>
-					<li><a href="services.php" <?php echo $services_active == '' ? "data-hover='Services'" : '';?> class="<?php echo $services_active;?>">Services</a></li>
+					<li><a href="services.php" <?php echo $services_active == '' ? "data-hover='Product & Services'" : '';?> class="<?php echo $services_active;?>">Product & Services</a></li>
 					<li><a href="clients.php" <?php echo $clients_active == '' ? "data-hover='Clients'" : '';?> class="<?php echo $clients_active;?>">Clients</a></li>
 					<li><a href="gallery.php" <?php echo $gallery_active == '' ? "data-hover='Gallery'" : '';?> class="<?php echo $gallery_active;?>">Gallery</a></li>
 					<li><a href="career.php" <?php echo $career_active == '' ? "data-hover='Career'" : '';?> class="<?php echo $career_active;?>">Career</a></li>
@@ -134,12 +136,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</div> -->
 			</div>
-			<div class="header-address">
-				<ul>
-					<li>Tarakpur Near- ECL Hospital, Kajora Gram, Andal, Dist- West Burdwan, Asansol, West Bengal, 713321, India</li>
-					<li><a href="mailto:info@equipcare.in">E-mail : info@equipcare.in</a></li>
-				</ul>
-			</div>
+
+			
+				<!-- <div class="header-address">
+					<h1>Knowteq Equipcare LLP</h1>
+					<ul>
+						<li>Tarakpur Near- ECL Hospital, Kajora Gram, Andal, Dist- West Burdwan, Asansol, West Bengal, 713321, India</li>
+						<li><a href="mailto:info@equipcare.in">E-mail : info@equipcare.in</a></li>
+					</ul>
+				</div> -->
+	
 		</div>
 	</div>
 	<!-- //banner -->
