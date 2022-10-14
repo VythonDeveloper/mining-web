@@ -3,7 +3,7 @@
 	<!-- about -->
 	<div class="about-top">
 		<div class="about-info">
-				<h3>About</h3>
+				<!-- <h3>About</h3> -->
 			</div>
 		<div class="welcome offer about">
 			<div class="welcome-left offer-left about-left">
