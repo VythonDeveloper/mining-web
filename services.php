@@ -40,9 +40,9 @@
 		<div class="services-bottom">
 			<!-- container -->
 			<div class="container">
-				<div class="services-bottom-info">
+				<!-- <div class="services-bottom-info">
 					<h3>Deep Mining</h3>
-				</div>
+				</div> -->
 				<div class="services-bottom-grids">
 					<div class=" col-md-4 services-bottom-grid">
 						<div class="services-img">
@@ -64,7 +64,7 @@
 						<div class="services-img">
 							<img src="images/s3.png" alt="" />
 						</div>
-						<h5>Equipments</h5>
+						<h5>Equipments of all make</h5>
 						<!-- <p>All sorts of mining equipments available
 						</p> -->
 					</div>
