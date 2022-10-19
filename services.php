@@ -49,24 +49,24 @@
 							<img src="images/s1.png" alt="" />
 						</div>
 						<h5>Efficient Service</h5>
-						<p>We provide efficient service
-						</p>
+						<!-- <p>We provide efficient service
+						</p> -->
 					</div>
 					<div class=" col-md-4 services-bottom-grid">
 						<div class="services-img">
 							<img src="images/s2.png" alt="" />
 						</div>
-						<h5>Manpower</h5>
-						<p>Great manpower
-						</p>
+						<h5>Experienced Manpower</h5>
+						<!-- <p>Great manpower
+						</p> -->
 					</div>
 					<div class=" col-md-4 services-bottom-grid">
 						<div class="services-img">
 							<img src="images/s3.png" alt="" />
 						</div>
 						<h5>Equipments</h5>
-						<p>All sorts of mining equipments available
-						</p>
+						<!-- <p>All sorts of mining equipments available
+						</p> -->
 					</div>
 					<div class="clearfix"> </div>
 				</div>
