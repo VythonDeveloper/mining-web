@@ -50,7 +50,7 @@
 					<li><a href="#" class="facebook"> </a>
 					<li><a href="#" class="facebook twitter"> </a>
 				</ul>
-				<p class="copyright"> © <?php echo date('Y');?> Equipcare. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a> | Customised by Munmun Gorai</p>
+				<p class="copyright"> © <?php echo date('Y');?> Equipcare. All rights reserved <mute style="display: none;">| Design by <a href="http://w3layouts.com/">W3layouts</a></mute> | Customised by Munmun Gorai</p>
 			</div>	
 		</div>
 	</div>
