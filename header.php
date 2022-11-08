@@ -65,7 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="index.php"></a>
 			</div>
 			<div class="top-nav" style="background-color: #16555a;">
-				<span class="menu">MENU</span>
+				<span class="menu" style="font-size: 1.0rem;">MENU</span>
 				<ul class="nav1 cl-effect-15">
 					<li><a href="index.php" <?php echo $home_active == '' ? "data-hover='Home'" : '';?> class="<?php echo $home_active;?>">Home</a></li>
 					<li><a href="about.php" <?php echo $aboutus_active == '' ? "data-hover='About'" : '';?> class="<?php echo $aboutus_active;?>">About</a></li>
