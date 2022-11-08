@@ -18,6 +18,8 @@
 		</div>
 	</div>
 	<!-- //about -->
+
+	
 	<!-- about-bottom -->
 	<div class="about-bottom">
 		<!-- container -->
@@ -58,33 +60,24 @@
 		<!-- //container -->
 	</div>
 	<!-- //about-bottom -->
-	<!-- <div class="about-team">
-		<div class="container">
-			<h4>Work Team</h4>
-			<div class="team-grids">
-				<div class="col-md-3 team-grid">
-					<img src="images/t1.jpg" alt="">
-					<h6>Jain Smith</h6>
-					<p> Curabitur orci massa convallis id mauris sed venenatis porttitor at leo nec purus</p>
-				</div>
-				<div class="col-md-3 team-grid">
-					<img src="images/t2.jpg" alt="">
-					<h6>shan carter</h6>
-					<p> Curabitur orci massa convallis id mauris sed venenatis porttitor at leo nec purus</p>
-				</div>
-				<div class="col-md-3 team-grid">
-					<img src="images/t3.jpg" alt="">
-					<h6>Jack dany</h6>
-					<p> Curabitur orci massa convallis id mauris sed venenatis porttitor at leo nec purus</p>
-				</div>
-				<div class="col-md-3 team-grid">
-					<img src="images/t4.jpg" alt="">
-					<h6>Mary Jain</h6>
-					<p> Curabitur orci massa convallis id mauris sed venenatis porttitor at leo nec purus</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+
+	<div class="container" style="margin-top: 30px; margin-bottom: 30px;">
+		<div class="typography-info">
+			<h3 class="type">ISO Certifications</h3>
 		</div>
-	</div> -->
+		<div class="about-bottom-grids">
+			<div class="col-md-4 about-bottom-left about-bottom-right">
+				<img src="images/certificates/iso2015.jpg" style="height: 500px; border: 3px solid #555;">
+			</div>
+			<div class="col-md-4 about-bottom-left about-bottom-right">
+				<p style="color: black;">At Knowteq Equipcare we believe in providing the highest quality services and solutions to our clients. To ensure that we bring the best in class service and ensure quality deliverables to our clients as well as have the highest standards of safety for our team we engaged with ISO standards. We are extremely delighted to be ISO 9001:2015 and ISO 45001:2018 certified. With this ISO certification we are dedicated to keep delivering with the highest confidence in our products and services and can reliably provide solutions to our clients backed by the global standards.</p>
+			</div>
+			<div class="col-md-4 about-bottom-left about-bottom-right">
+				<img src="images/certificates/iso2018.jpg" style="height: 500px; border: 3px solid #555; float: right;">
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+
 	<!-- footer -->
 	<?php include 'footer.php';?>
