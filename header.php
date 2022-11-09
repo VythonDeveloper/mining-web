@@ -64,6 +64,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<img src="./images/logo.png" height="180px" class="img-fluid"><br>
 				<a href="index.php"></a>
 			</div>
+			<table style="margin-left: auto; margin-right: auto; width: 100%; margin-top: 200px;">
+				<tr>
+					<td style="text-align: center;"><img src="images/certificates/iso.png"></td>
+					<td style="text-align: center;"><img src="images/certificates/iso9001.png"></td>
+				</tr>
+				<tr>
+					<td style="color: white; text-align: center;">Occupational Health & Safety.Assured<br>ISO9001:2015 Certified</td>
+					<td style="color: white; text-align: center;">Quality.Assured<br>ISO 45001:2018 Certified</td>
+				</tr>
+			</table>
 			<div class="top-nav" style="background-color: #16555a;">
 				<span class="menu" style="font-size: 1.0rem;">MENU</span>
 				<ul class="nav1 cl-effect-15" style="<?php echo $home_active == '' ? "margin: 3em 0 0 0 !important;" : '';?>">
