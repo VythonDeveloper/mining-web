@@ -78,6 +78,16 @@
 			<div class="clearfix"> </div>
 		</div>
 	</div>
+	<table style="margin-left: auto; margin-right: auto; width: 100%; margin-top: 20px;">
+		<tr>
+			<td style="text-align: center;"><img src="images/certificates/iso.png"></td>
+			<td style="text-align: center;"><img src="images/certificates/iso9001.png"></td>
+		</tr>
+		<tr>
+			<td style="color: black; text-align: center;">Occupational Health & Safety.Assured<br>ISO9001:2015 Certified</td>
+			<td style="color: black; text-align: center;">Quality.Assured<br>ISO 45001:2018 Certified</td>
+		</tr>
+	</table>
 
 	<!-- footer -->
 	<?php include 'footer.php';?>
