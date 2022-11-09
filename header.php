@@ -67,13 +67,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="top-nav" style="background-color: #16555a;">
 				<span class="menu" style="font-size: 1.0rem;">MENU</span>
 				<ul class="nav1 cl-effect-15">
-					<li style="font-size: 12px;"><a href="index.php" <?php echo $home_active == '' ? "data-hover='Home'" : '';?> class="<?php echo $home_active;?>">Home</a></li>
-					<li style="font-size: 12px;"><a href="about.php" <?php echo $aboutus_active == '' ? "data-hover='About'" : '';?> class="<?php echo $aboutus_active;?>">About</a></li>
-					<li style="font-size: 12px;"><a href="services.php" <?php echo $services_active == '' ? "data-hover='Product & Services'" : '';?> class="<?php echo $services_active;?>">Product & Services</a></li>
-					<li style="font-size: 12px;"><a href="clients.php" <?php echo $clients_active == '' ? "data-hover='Clients'" : '';?> class="<?php echo $clients_active;?>">Clients</a></li>
-					<li style="font-size: 12px;"><a href="gallery.php" <?php echo $gallery_active == '' ? "data-hover='Gallery'" : '';?> class="<?php echo $gallery_active;?>">Gallery</a></li>
-					<li style="font-size: 12px;"><a href="career.php" <?php echo $career_active == '' ? "data-hover='Career'" : '';?> class="<?php echo $career_active;?>">Career</a></li>
-					<li style="font-size: 12px;"><a href="contact.php" <?php echo $contact_active == '' ? "data-hover='Contact'" : '';?> class="<?php echo $contact_active;?>">Contact</a></li>
+					<li><a href="index.php" <?php echo $home_active == '' ? "data-hover='Home'" : '';?> class="<?php echo $home_active;?>">Home</a></li>
+					<li><a href="about.php" <?php echo $aboutus_active == '' ? "data-hover='About'" : '';?> class="<?php echo $aboutus_active;?>">About</a></li>
+					<li><a href="services.php" <?php echo $services_active == '' ? "data-hover='Product & Services'" : '';?> class="<?php echo $services_active;?>">Product & Services</a></li>
+					<li><a href="clients.php" <?php echo $clients_active == '' ? "data-hover='Clients'" : '';?> class="<?php echo $clients_active;?>">Clients</a></li>
+					<li><a href="gallery.php" <?php echo $gallery_active == '' ? "data-hover='Gallery'" : '';?> class="<?php echo $gallery_active;?>">Gallery</a></li>
+					<li><a href="career.php" <?php echo $career_active == '' ? "data-hover='Career'" : '';?> class="<?php echo $career_active;?>">Career</a></li>
+					<li><a href="contact.php" <?php echo $contact_active == '' ? "data-hover='Contact'" : '';?> class="<?php echo $contact_active;?>">Contact</a></li>
 				</ul>
 				<!-- script-for-menu -->
 					<script>
