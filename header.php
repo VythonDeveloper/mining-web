@@ -62,7 +62,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="banner-content">
 			<div class="logo">
 				<img src="./images/logo.png" height="180px" class="img-fluid" style="margin-bottom: 0px;"><br>
-				<p style="color: white;">Engineering Perfection</p>
+				<p style="color: white;"><strong>Engineering Perfection</strong></p>
 			</div>
 			<div class="top-nav" style="background-color: #16555a;">
 				<span class="menu" style="font-size: 1.0rem;">MENU</span>
