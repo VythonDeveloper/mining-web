@@ -21,6 +21,7 @@
 					</p>
 					<h4>Get In Touch</h4>
 					<p style="color: black;">Telephone: +91 84201 78887<br>
+					Telephone: +91 96095 86869<br>
 						<!-- <span>FAX: +1 234 567 9871</span> -->
 						E-mail: <a href="mailto:info@equipcare.in">info@equipcare.in</a>
 					</p>

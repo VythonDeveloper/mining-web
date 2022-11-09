@@ -61,25 +61,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner">
 		<div class="banner-content">
 			<div class="logo">
-				<img src="./images/logo.png" height="180px" class="img-fluid"><br>
-				<a href="index.php"></a>
+				<img src="./images/logo.png" height="180px" class="img-fluid" style="margin-bottom: 0px;"><br>
+				<p style="color: white;">Engineering Perfection</p>
 			</div>
-
-			<?php if($home_active != ''){?>
-				<table style="margin-left: auto; margin-right: auto; width: 100%; margin-top: 200px;">
-					<tr>
-						<td style="text-align: center;"><img src="images/certificates/iso.png"></td>
-						<td style="text-align: center;"><img src="images/certificates/iso9001.png"></td>
-					</tr>
-					<tr>
-						<td style="color: white; text-align: center;">Occupational Health & Safety.Assured<br>ISO9001:2015 Certified</td>
-						<td style="color: white; text-align: center;">Quality.Assured<br>ISO 45001:2018 Certified</td>
-					</tr>
-				</table>
-			<?php } ?>
 			<div class="top-nav" style="background-color: #16555a;">
 				<span class="menu" style="font-size: 1.0rem;">MENU</span>
-				<ul class="nav1 cl-effect-15" style="<?php echo $home_active == '' ? "margin: 3em 0 0 0 !important;" : '';?>">
+				<ul class="nav1 cl-effect-15">
 					<li><a href="index.php" <?php echo $home_active == '' ? "data-hover='Home'" : '';?> class="<?php echo $home_active;?>">Home</a></li>
 					<li><a href="about.php" <?php echo $aboutus_active == '' ? "data-hover='About'" : '';?> class="<?php echo $aboutus_active;?>">About</a></li>
 					<li><a href="services.php" <?php echo $services_active == '' ? "data-hover='Product & Services'" : '';?> class="<?php echo $services_active;?>">Product & Services</a></li>

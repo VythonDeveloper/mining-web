@@ -1,5 +1,4 @@
 <?php include "header.php";?>
-
 	<div class="welcome">
 		<div class="welcome-left">
 			<h3>Hello and welcome!</h3>
@@ -9,7 +8,6 @@ We develop & supply custom-built products such as “Workshop On Wheels, Mobile 
 			</p>
 		</div>
 		<div class="welcome-right">
-			
 		</div>
 		<div class="clearfix"> </div>
 	</div>

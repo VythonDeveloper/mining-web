@@ -66,15 +66,15 @@
 			<h3 class="type">ISO Certifications</h3>
 		</div>
 		<div class="about-bottom-grids">
-			<div class="col-md-4 about-bottom-left about-bottom-right">
+			<!-- <div class="col-md-4 about-bottom-left about-bottom-right">
 				<img src="images/certificates/iso2015.jpg" style="height: 500px; border: 3px solid #555;">
-			</div>
-			<div class="col-md-4 about-bottom-left about-bottom-right">
+			</div> -->
+			<div class="col-md-12 about-bottom-left about-bottom-right">
 				<p style="color: black;">At Knowteq Equipcare we believe in providing the highest quality services and solutions to our clients. To ensure that we bring the best in class service and ensure quality deliverables to our clients as well as have the highest standards of safety for our team we engaged with ISO standards. We are extremely delighted to be ISO 9001:2015 and ISO 45001:2018 certified. With this ISO certification we are dedicated to keep delivering with the highest confidence in our products and services and can reliably provide solutions to our clients backed by the global standards.</p>
 			</div>
-			<div class="col-md-4 about-bottom-left about-bottom-right">
+			<!-- <div class="col-md-4 about-bottom-left about-bottom-right">
 				<img src="images/certificates/iso2018.jpg" style="height: 500px; border: 3px solid #555; float: right;">
-			</div>
+			</div> -->
 			<div class="clearfix"> </div>
 		</div>
 	</div>
@@ -84,8 +84,8 @@
 			<td style="text-align: center;"><img src="images/certificates/iso9001.png"></td>
 		</tr>
 		<tr>
-			<td style="color: black; text-align: center;">Occupational Health & Safety.Assured<br>ISO9001:2015 Certified</td>
 			<td style="color: black; text-align: center;">Quality.Assured<br>ISO 45001:2018 Certified</td>
+			<td style="color: black; text-align: center;">Occupational Health & Safety.Assured<br>ISO9001:2015 Certified</td>
 		</tr>
 	</table>
 

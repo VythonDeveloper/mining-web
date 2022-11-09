@@ -65,32 +65,8 @@
 					<?php } ?>
 					<div class="clearfix"> </div>
 				</div>
-				<div class="gallery-grids gallery-grids-middle">
-					<?php for($i = 29; $i < 33; $i++){ ?>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="./images/gallery/gal%20(<?php echo $i;?>).jpg" data-lightbox="example-set" data-title=""><img height="200px" width="200px" class="example-image" src="./images/gallery/gal%20(<?php echo $i;?>).jpg" alt=""/></a>
-						</div>
-					<?php } ?>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="gallery-grids gallery-grids-middle">
-					<?php for($i = 33; $i < 37; $i++){ ?>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="./images/gallery/gal%20(<?php echo $i;?>).jpg" data-lightbox="example-set" data-title=""><img height="200px" width="200px" class="example-image" src="./images/gallery/gal%20(<?php echo $i;?>).jpg" alt=""/></a>
-						</div>
-					<?php } ?>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="gallery-grids gallery-grids-middle">
-					<?php for($i = 37; $i < 41; $i++){ ?>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="./images/gallery/gal%20(<?php echo $i;?>).jpg" data-lightbox="example-set" data-title=""><img height="200px" width="200px" class="example-image" src="./images/gallery/gal%20(<?php echo $i;?>).jpg" alt=""/></a>
-						</div>
-					<?php } ?>
-					<div class="clearfix"> </div>
-				</div>
 				<div class="gallery-grids">
-					<?php for($i = 41; $i < 44; $i++){ ?>
+					<?php for($i = 29; $i < 31; $i++){ ?>
 						<div class="col-md-3 gallery-grid">
 							<a class="example-image-link" href="./images/gallery/gal%20(<?php echo $i;?>).jpg" data-lightbox="example-set" data-title=""><img height="200px" width="200px" class="example-image" src="./images/gallery/gal%20(<?php echo $i;?>).jpg" alt=""/></a>
 						</div>

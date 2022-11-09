@@ -28,9 +28,10 @@
 					<p style="color: black;">We are also in manufacturing and development of custom built products such as;</p>
 					<p style="color: black;"><strong>1. </strong> Workshop On Wheels (Fully Customizable Mobile Workshop)</p>
 					<p style="color: black;"><strong>2. </strong> Service Van</p>
-					<p style="color: black;"><strong>3. </strong> Tyre Repair and Maintenance</p>
-					<p style="color: black;"><strong>4. </strong> Lubrication</p>
-					<p style="color: black;"><strong>5. </strong> Recon Solutions</p>
+					<p style="color: black;"><strong>3. </strong> Tyre Repair and Maintenance Unit</p>
+					<p style="color: black;"><strong>4. </strong> Lubrication Unit</p>
+					<p style="color: black;"><strong>5. </strong> Plug & Play Workshop</p>
+					<p style="color: black;"><strong>6. </strong> Recon Solutions</p>
 					<p style="color: black;">All products are fully customizable to suit the need and can also be modified to your specific requirement.</p>
 				</div>
 				<div class="welcome-right new-right services-right-img">
