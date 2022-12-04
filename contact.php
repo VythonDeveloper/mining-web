@@ -1,4 +1,44 @@
-<?php include "header.php";?>
+<?php 
+include "./dbcon.php";
+$start = date("d-m-Y h:i a");
+$added_on= date('Y-m-d h:i:s',strtotime('+5 hour +30 minutes',strtotime($start)));
+
+function getSafeValue($value){
+	global $conn;
+	return strip_tags(
+		mysqli_real_escape_string($conn, $value)
+	);
+}
+if(isset($_POST['postMessage'])){
+
+	$mandatoryVal = isset($_POST['fullname']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['message']);
+
+	if($mandatoryVal){
+		$fullname = getSafeValue($_POST['fullname']);
+	    $email = getSafeValue($_POST['email']);
+	    $subject = getSafeValue($_POST['subject']);
+	    $message = getSafeValue($_POST['message']);
+
+	    $conn->query("Insert into contact_us set
+	    	fullname = '$fullname',
+	    	email = '$email',
+	    	subject = '$subject',
+	    	message = '$message',
+	    	status = 'Active',
+	    	date = '$added_on'
+	    	");
+
+	    if($conn->affected_rows > 0){
+	    	echo "<script>alert('Message is posted. Please allow 24 hrs and will we connect you with your query/suggestion/complaint.');</script>";
+	    } else{
+	    	echo "<script>alert('Something went wrong');</script>";
+	    }
+	} else{
+		echo "<script>alert('All fields are required');</script>";
+	}
+	header("Refresh:0");
+}
+include "header.php";?>
 
 	<!-- contact -->
 	<div class="contact-top">
@@ -27,12 +67,12 @@
 					</p>
 				</div>
 				<div class="col-md-6 contact-form">
-					<form>
-						<input type="text" placeholder="Name" required="">
-						<input type="text" placeholder="Email" required="">
-						<input type="text" placeholder="Subject" required="">
-						<textarea placeholder="Message" required=""></textarea>
-						<input type="submit" value="SEND">
+					<form method="POST">
+						<input type="text" id="fullname" name="fullname" placeholder="Full Name" required="">
+						<input type="text" id="email" name="email" placeholder="Email" required="">
+						<input type="text" id="subject" name="subject" placeholder="Subject" required="">
+						<textarea id="message" name="message" placeholder="Message" required=""></textarea>
+						<input type="submit" value="Post Message" name="postMessage" id="postMessage">
 					</form>
 				</div>
 				<div class="clearfix"> </div>
