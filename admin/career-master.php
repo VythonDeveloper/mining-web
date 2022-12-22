@@ -1,5 +1,6 @@
 <?php 
 include "../dbcon.php";
+$errorMsg = '';
 if(isset($_POST['from']) && $_POST['from'] == "Delete_Resume"){
     $resumeId = $_POST['resumeId'];
     $res = $conn->query("Select * from resume where id = '$resumeId'");
@@ -9,25 +10,24 @@ if(isset($_POST['from']) && $_POST['from'] == "Delete_Resume"){
             unlink('../assets/resume/'.$row['resumeFile']);
             $conn->query("Delete from resume where id = '$resumeId'");
             if($conn->affected_rows > 0){
-                echo "<script>alert('File Deleted from Server');</script>";
+                $errorMsg = "<div class=\"p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800\" role=\"alert\"><span class=\"font-medium\">Success!</span> Resume with id $resumeId deleted</div>";
             } else{
-                echo "<script>alert('Something went wrong. Try again');</script>";
+                $errorMsg = "<div class=\"p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800\" role=\"alert\"><span class=\"font-medium\">Ooops!</span> Something went wrong. Try again</div>";
             }
         } catch(Exception $e){
-            echo "<script>alert('Unable to delete file from Server');</script>";
+            $errorMsg = "<div class=\"p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800\" role=\"alert\"><span class=\"font-medium\">Ooops!</span> Unable to delete resume with id $resumeId</div>";
         }
     } else{
-        echo "<script>alert('No such record found!');</script>";
+        $errorMsg = "<div class=\"p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800\" role=\"alert\"><span class=\"font-medium\">Ooops!</span> No such resume found</div>";
     }
-    header("Refresh:0");
 }
 include "header.php";
 $resumeData = getResumes();
 ?>
 <section class="text-gray-600 body-font">
-
     <div class="container px-5 py-5 mx-auto">
         <div class="lg w-full mx-auto overflow-auto">
+            <?php echo $errorMsg;?>
             <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -85,7 +85,6 @@ $resumeData = getResumes();
                                         <?php echo $value['date'];?>
                                     </td>
                                     <td class="py-4 px-6 text-right">
-
                                         <div class="inline-flex rounded-md shadow-sm" role="group">
                                           <a target="_blank" href="../assets/resume/<?php echo $value['resumeFile'];?>" class="py-2 px-3 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">View</a>
                                           <form method="POST">

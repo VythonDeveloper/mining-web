@@ -1,10 +1,22 @@
 <?php 
+include "../dbcon.php";
+$errorMsg = '';
+if(isset($_POST['from']) && $_POST['from'] == "Delete_ContactUs"){
+    $contactusId = $_POST['contactusId'];
+    $conn->query("Delete from contact_us where id = '$contactusId'");
+    if($conn->affected_rows > 0){
+        $errorMsg = "<div class=\"p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800\" role=\"alert\"><span class=\"font-medium\">Success!</span> Contact Us query with id $contactusId is deleted.</div>";
+    } else{
+        $errorMsg = "<div class=\"p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800\" role=\"alert\"><span class=\"font-medium\">Ooops!</span> Something went wrong. Try again</div>";
+    }
+}
 include "header.php";
 $contactUsData = getContactUs();
 ?>
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-5 mx-auto">
         <div class="lg w-full mx-auto overflow-auto">
+            <?php echo $errorMsg;?>
             <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -61,8 +73,14 @@ $contactUsData = getContactUs();
                                     <td class="py-4 px-6" id="<?php echo 'contactDate'.$value['id'];?>">
                                         <?php echo $value['date'];?>
                                     </td>
-                                    <td class="py-4 px-6 text-right" id="<?php echo 'contactButton'.$value['id'];?>">
-                                        <button type="button" class="py-2 px-3 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="openModal(<?php echo $value['id'];?>);">View</button>
+                                    <td class="py-4 px-6 text-right">
+                                        <div class="inline-flex rounded-md shadow-sm" role="group">
+                                            <button type="button" class="py-2 px-3 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick="openModal(<?php echo $value['id'];?>);">View</button>
+                                            <form method="POST">
+                                                <input type="hidden" name="contactusId" value="<?php echo $value['id'];?>">
+                                                <button type="submit" name="from" value="Delete_ContactUs" class="py-2 px-3 text-xs font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800" onclick="return confirm('Are you sure to delete the selected Contact query?');">Delete</button>
+                                            </form>
+                                        </div>
                                     </td>
                                 </tr>
                            <?php } 

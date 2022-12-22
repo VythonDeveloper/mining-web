@@ -13,6 +13,9 @@
     elseif($curr_path == 'contact-us-master' || $curr_path == 'contact-us-master.php'){
       $pageName = "Contact Us Master";
     }
+    elseif($curr_path == 'change-password' || $curr_path == 'change-password.php'){
+      $pageName = "Change Password";
+    }
     ?>
 <!DOCTYPE html>
 <html>
@@ -103,6 +106,15 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
                                         </svg>
                                         <span class="ml-4">Contact Us</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="inline-flex items-center w-full px-4 py-2 mt-1 text-base text-white transition duration-500 ease-in-out transform  <?php echo $pageName == "Change Password" ?  'bg-indigo-600' : 'border-indigo-800';?>  rounded-lg hover:border-indigo-800 focus:shadow-outline hover:bg-indigo-600"
+                                        href="change-password.php"
+                                        >
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key" viewBox="0 0 16 16"> <path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z"/> <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/> </svg>
+                                        <span class="ml-4">Change Password</span>
                                     </a>
                                 </li>
                                 <li class="align-bottom">
